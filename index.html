@@ -80,17 +80,17 @@ h1 {
       <div class="tab-content">
         
         <!-- Overwatch  -->
-        <div id="home" name="home" class="tab-pane fade in active">
+        <div id="home" class="tab-pane fade in active">
           <h3>Overwatch</h3>
           <!-- Take Input From User  -->
           <h4>Please fill out the information below:</h4>
           <label class="form-check-label" for="flexRadioDefault1">What role do plan on trying out for?</label>
-          <select type="select" id="owRole" name="owRole" placeholder="Tank, DPS, or Support">
+          <select id="owRole" name="owRole">
           <option value="" disabled selected>Select your option</option>
           <option value="tank">Tank</option>
           <option value="dps">DPS</option>
           <option value="support">Support</option>
-          <select>
+          </select>
           <br>
           <label class="form-check-label" for="flexRadioDefault1">What year are you in college?</label>
           <input type="text" id="owYear" name="owYear" placeholder="Freshman, Sophmore, etc">
@@ -100,7 +100,7 @@ h1 {
           <br>
           <label class="form-check-label"
 for="flexRadioDefault1">What characters do you play in Overwatch?</label>
-          <select type="text" id="owCharacter" name="owCharacter" placeholder="Tracer, Roadhog, Mercy, etc">
+          <select id="owCharacter" name="owCharacter">
             <option>Select a Role First</option>
             </select>
           <br>
@@ -128,7 +128,7 @@ for="flexRadioDefault1">What is your gamertag?</label>
           <h3>League of Legends</h3>
                     <h4>Please fill out the information below:</h4>
           <label class="form-check-label" for="flexRadioDefault1">What role do plan on trying out for?</label>
-          <select type="text" id="lolRole" name="lolRole">
+          <select id="lolRole" name="lolRole">
             <option value="" disabled selected>Select your option</option>
             <option value="top">Top</option>
             <option value="jungle">Jungle</option>
