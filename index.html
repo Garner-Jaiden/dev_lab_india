@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Univeristy of North Alabama Esports Tryouts</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body onload="console.log('Welcome to my home page!');">
+<style>
+body {
+  color: #DB9F11;
+}
+
+h1 {
+  color: #DB9F11;
+}
+  
+</style>
+
+<!-- NAVBAR -->
+
+<nav class="navbar navbar-inverse ">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        
+        <!-- Discord Link -->
+        <li><a href="https://discord.gg/QwYBqDy7wW" target="_blank">Discord Link</a></li>
+        
+        <!-- Twitter Link -->
+        <li><a href="https://twitter.com/una_esports" target="_blank">Twitter</a></li>
+        
+        <!-- Instagram Link -->
+        <li><a href="https://www.instagram.com/una_esports/" target="_blank">Instagram</a></li>
+        
+        <!-- Twitch Link -->
+        <li><a href="https://www.twitch.tv/una_esports" target="_blank">Twitch</a></li>
+        
+        <!-- NU Checker -->
+        <li><a href="" target="_blank">NU Checker</a></li>
+        
+        <!-- Github Link -->
+        <li><a href="https://github.com/Garner-Jaiden/dev_lab_india" target="_blank">GitHub Repo</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- MAIN BODY -->
+    <div class="col-sm-11.5 text-center"> 
+      <h1>Have you ever thought playing Esports for the Univeristy of North Alabama?</h1>
+      <p>Sign up today for any game that we offer using the sheets below:</p>
+      
+      <!-- Nav Bar -->
+      <ul class="nav nav-tabs">
+        <li><a data-toggle="tab" href="#home">Overwatch</a></li>
+        <li><a data-toggle="tab" href="#menu1">League of Legends</a></li>
+        <li><a data-toggle="tab" href="#menu2">Valorant</a></li>
+      <li><a data-toggle="tab" href="#menu3">Rocket League</a></li>
+      <li><a data-toggle="tab" href="#menu4">Smash Bros Ultimate</a></li>
+      </ul>
+      
+
+<!-- BEGIN FORMS -->
+      <div class="tab-content">
+        
+        <!-- Overwatch  -->
+        <div id="home" name="home" class="tab-pane fade in active">
+          <h3>Overwatch</h3>
+          <!-- Take Input From User  -->
+          <h4>Please fill out the information below:</h4>
+          <label class="form-check-label" for="flexRadioDefault1">What role do plan on trying out for?</label>
+          <select type="select" id="owRole" name="owRole" placeholder="Tank, DPS, or Support">
+          <option value="" disabled selected>Select your option</option>
+          <option value="tank">Tank</option>
+          <option value="dps">DPS</option>
+          <option value="support">Support</option>
+          <select>
+          <br>
+          <label class="form-check-label" for="flexRadioDefault1">What year are you in college?</label>
+          <input type="text" id="owYear" name="owYear" placeholder="Freshman, Sophmore, etc">
+          <br>
+          <label class="form-check-label" for="flexRadioDefault1">What is your SR and rank in Overwatch?</label>
+          <input type="text" id="owRank" name="owRank" placeholder="3000 Diamond">
+          <br>
+          <label class="form-check-label"
+for="flexRadioDefault1">What characters do you play in Overwatch?</label>
+          <select type="text" id="owCharacter" name="owCharacter" placeholder="Tracer, Roadhog, Mercy, etc">
+            <option>Select a Role First</option>
+            </select>
+          <br>
+          <label class="form-check-label"
+for="flexRadioDefault1">What is your gamertag?</label>
+          <input type="text" id="owGamerTag" name="owGamerTag" placeholder="Thimble#11429">
+          <br>
+          <div class="form-box">
+            <h4>Are you a Full Time student at the University of North Alabama?</h4>
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">Yes</label>
+            <br />
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">No</label>  
+          </div>
+          <br>
+          <label class="form-check-label" for="flexRadioDefault1">Any other information you want to tell us?</label>
+          <input type="text" id="owExtra" name="owExtra" placeholder="N/A">
+          <br>
+          <input type="submit" id="owSubmitButton" name="owSubmitButton" value="Submit">
+        </div>
+        
+        <!-- League of Legends -->
+        <div id="menu1" class="tab-pane fade">
+          <h3>League of Legends</h3>
+                    <h4>Please fill out the information below:</h4>
+          <label class="form-check-label" for="flexRadioDefault1">What role do plan on trying out for?</label>
+          <select type="text" id="lolRole" name="lolRole">
+            <option value="" disabled selected>Select your option</option>
+            <option value="top">Top</option>
+            <option value="jungle">Jungle</option>
+            <option value="mid">Middle</option>
+            <option value="bot">Bottom</option>
+            <option value="support">Support</option>
+          </select>
+          <br>
+          <label class="form-check-label" for="flexRadioDefault1">What year are you in college?</label>
+          <input type="text" id="lolYear" name="lolYear" placeholder="Freshman, Sophmore, etc">
+          <br>
+          <label class="form-check-label" for="flexRadioDefault1">What is your rank in League of Legends?</label>
+          <input type="text" id="lolRank" name="lolRank" placeholder="Platnium, Diamond, etc">
+          <br>
+          <label class="form-check-label"
+for="flexRadioDefault1">What characters do you play in League of Legends?</label>
+          <input type="text" id="lolCharacter" name="lolCharacter" placeholder="Darius, Sylas, Rengar, etc">
+          <br>
+          <label class="form-check-label"
+for="flexRadioDefault1">What is your gamertag?</label>
+          <input type="text" id="lolGamerTag" name="lolGamerTag" placeholder="BubbaThimble">
+          <br>
+          <div class="form-box">
+            <h4>Are you a Full Time student at the University of North Alabama?</h4>
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">Yes</label>
+            <br />
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">No</label>  
+          </div>
+          <br>
+          <label class="form-check-label" for="flexRadioDefault1">Any other information you want to tell us?</label>
+          <input type="text" id="lolExtra" name="lolExtra" placeholder="N/A">
+          <br>
+          <input type="submit" id="lolSubmitButton" name="lolSubmitButton" value="Submit">
+        </div>
+        
+        <!-- Valorant -->
+        <div id="menu2" class="tab-pane fade">
+          <h3>Valorant</h3>
+          <h4>Please fill out the information below:</h4>
+          <label class="form-check-label"  for="flexRadioDefault1">What year are you in college?</label>
+          <input type="text" id="vYear" name="vYear" placeholder="Freshman, Sophmore, etc">
+          <br>
+          <label class="form-check-label" for="flexRadioDefault1">What is your rank in Valorant?</label>
+          <input type="text" id="vRank" name="vRank" placeholder="Immortal, Radient, etc">
+          <br>
+          <label class="form-check-label"
+for="flexRadioDefault1">What characters do you play in Valorant?</label>
+          <input type="text" id="vCharacter" name="vCharacter" placeholder="Sage, Brimstone, etc">
+          <br>
+          <label class="form-check-label"
+for="flexRadioDefault1">What is your gamertag?</label>
+          <input type="text" id="vGamerTag" name="vGamerTag" placeholder="BubbaThimble#NA1">
+          <br>
+          <div class="form-box">
+            <h4>Are you a Full Time student at the University of North Alabama?</h4>
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">Yes</label>
+            <br />
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">No</label>  
+          </div>
+          <br>
+          <label class="form-check-label" for="flexRadioDefault1">Any other information you want to tell us?</label>
+          <input type="text" id="vExtra" name="vExtra" placeholder="N/A">
+          <br>
+          <input type="submit" id="valorantSubmitButton" name="valorantSubmitButton" value="Submit">
+        </div>
+        
+        <!-- Rocket League  -->
+        <div id="menu3" class="tab-pane fade">
+          <h3>Rocket League</h3>
+          <!-- Take Input From User  -->
+          <h4>Please fill out the information below:</h4>
+          <label class="form-check-label"  for="flexRadioDefault1">What year are you in college?</label>
+          <input type="text" id="rlYear" name="rlYear" placeholder="Freshman, Sophmore, etc">
+          <br>
+          <label class="form-check-label" for="flexRadioDefault1">What is your rank in Rocket League?</label>
+          <input type="text" id="rlRank" name="rlRank" placeholder="Champ, Grand Champ, etc">
+          <br>
+          <label class="form-check-label"
+for="flexRadioDefault1">What cars do you use in Rocket League?</label>
+          <input type="text" id="rlCharacter" name="rlCharacter" placeholder="Octane, Dominus, etc">
+          <br>
+          <label class="form-check-label"
+for="flexRadioDefault1">What is your gamertag?</label>
+          <input type="text" id="rlGamerTag" name="rlGamerTag" placeholder="BubbaThimble">
+          <br>
+          <div class="form-box">
+            <h4>Are you a Full Time student at the University of North Alabama?</h4>
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">Yes</label>
+            <br />
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">No</label>  
+          </div>
+          <br>
+          <label class="form-check-label" for="flexRadioDefault1">Any other information you want to tell us?</label>
+          <input type="text" id="rlExtra" name="rlExtra" placeholder="N/A">
+          <br>
+          <input type="submit" id="rlSubmitButton" name="rlSubmitButton" value="Submit">
+        </div>
+        
+        <!-- Smash Bros  -->
+        <div id="menu4" class="tab-pane fade">
+          <h3>Smash Bros. Ultimate</h3>
+          <!-- Take Input From User  -->
+          <h4>Please fill out the information below:</h4>
+          <label class="form-check-label" for="flexRadioDefault1">What year are you in college?</label>
+          <input type="text" id="ssbYear" name="ssbYear" placeholder="Freshman, Sophmore, etc">
+          <br>
+          <label class="form-check-label" 
+for="flexRadioDefault1">What characters do you play in Smash?</label>
+          <input type="text" id="ssbCharacter" name="ssbCharacter" placeholder="Mario, Samus, Sora, etc">
+          <br>
+          <label class="form-check-label"
+for="flexRadioDefault1">What is your gamertag?</label>
+          <input type="text" id="ssbGamerTag" name="ssbGamerTag" placeholder="Thimble">
+          <br>
+          <div class="form-box">
+            <h4>Are you a Full Time student at the University of North Alabama?</h4>
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">Yes</label>
+            <br />
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">No</label>  
+          </div>
+          <br>
+          <label class="form-check-label" for="flexRadioDefault1">Any other information you want to tell us?</label>
+          <input type="text" id="ssbExtra" name="ssbExtra" placeholder="N/A">
+          <br>
+          <input type="submit" id="ssbSubmitButton" name="ssbSubmitButton" value="Submit">
+        </div>
+      </div>
+      </div>
+
+<script src="jS/scripts.js"></script>
+<script src="jS/dev_skills.js"></script>
+</body>
+</html>
